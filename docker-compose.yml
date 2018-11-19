@@ -5,6 +5,7 @@ volumes:
     driver_opts:
       importVolAsClone: virtdbnxContext
       replStore: tme-staging-array2
+      snapshot: "0449d52a4b839555c0000000000000027d000148ff"
       destroyOnDetach: "true"
 services:
   virtdbnx:
